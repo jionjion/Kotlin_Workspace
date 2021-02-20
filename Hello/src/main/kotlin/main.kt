@@ -1,8 +1,6 @@
 /**
  *  使用 Kotlin
  */
-fun main() {
-    println("What's your name?")
-    val name = readLine()
-    println("Hello $name!")
+fun main(args: Array<String>) {
+    println("Hello World!")
 }
