@@ -3,6 +3,7 @@
 *.jar
 *.tar.gz
 
+*.iml
 .idea
 */.idea
 */target
