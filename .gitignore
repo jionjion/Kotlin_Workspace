@@ -1,0 +1,8 @@
+*.class
+*.log
+*.jar
+*.tar.gz
+
+.idea
+*/.idea
+*/target
