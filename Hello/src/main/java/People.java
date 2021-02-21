@@ -12,7 +12,7 @@ public class People {
     }
 
     public void sayHello() {
-        System.out.println("Hello" + name);
+        System.out.println("Hello, " + name);
     }
 
     public String getName() {
