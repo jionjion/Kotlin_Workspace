@@ -1,7 +1,5 @@
 package demo
 
-import People
-
 /**
  *  fun 函数声明
  *  main 主入口函数

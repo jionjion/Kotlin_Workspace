@@ -1,3 +1,5 @@
+package demo;
+
 /**
  * 正常的Java类
  *
