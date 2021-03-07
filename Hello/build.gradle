@@ -1,0 +1,32 @@
+/* 根工程配置文件 */
+
+// 插件仓库
+plugins {
+    id 'java'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.31'
+}
+
+// 坐标
+group 'top.jionjion'
+version '1.0-SNAPSHOT'
+
+// 依赖仓库
+repositories {
+    // mavenCentral()
+    maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+    maven { url 'https://maven.aliyun.com/repository/google' }
+    maven { url 'http://maven.aliyun.com/nexus/content/groups/public/' }
+    maven { url 'https://maven.aliyun.com/repository/jcenter' }
+}
+
+// 依赖 Jar
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
+}
+
+// 任务
+test {
+    useJUnitPlatform()
+}

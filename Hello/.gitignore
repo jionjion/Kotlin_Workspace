@@ -28,8 +28,5 @@ build/
 hs_err_pid*
 
 # 不知道怎么处理..先不加入
-build.gradle
-gradle.properties
 gradlew
 gradlew.bat
-settings.gradle

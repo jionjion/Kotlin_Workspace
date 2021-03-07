@@ -1,0 +1,4 @@
+/* 工程初始化配置文件 */
+
+rootProject.name = 'hello'
+
