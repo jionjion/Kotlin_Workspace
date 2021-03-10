@@ -1,4 +1,4 @@
-package demo;
+package base;
 
 /**
  * 正常的Java类
