@@ -1,4 +1,4 @@
-package demo
+package base
 
 /**
  * 1.基础变量
