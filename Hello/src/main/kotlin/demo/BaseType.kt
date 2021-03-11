@@ -1,8 +1,7 @@
 package demo
 
 /**
- * 基础变量
- *  @author jion
+ * 1.基础变量
  */
 class BaseType {
 
@@ -25,7 +24,7 @@ class BaseType {
         var d1: UByte = 1u
         var d2: UShort = 1u
         var d3: UInt = 1000u
-        var d4: ULong =10000000u
+        var d4: ULong = 10000000u
 
         // 数据类型
         var e1 = 1
@@ -35,7 +34,7 @@ class BaseType {
     }
 
     // 字符数据类型
-    fun stringType(){
+    fun stringType() {
         val a = "Hello 世界"
         // 字符串模板
         println("输出>> $a")

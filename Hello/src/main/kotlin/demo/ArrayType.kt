@@ -1,8 +1,7 @@
 package demo
 
-
 /**
- *  数组类型
+ *  2.数组类型
  */
 class ArrayType {
 
@@ -24,9 +23,9 @@ class ArrayType {
     }
 
     // 循环
-    fun each(){
-        val a1 = longArrayOf(1,2,3,4)
-        a1.forEach { e -> { println(e)} }
+    fun each() {
+        val a1 = longArrayOf(1, 2, 3, 4)
+        a1.forEach { e -> { println(e) } }
 
         // 判断是否在内
         println(1 in a1)
