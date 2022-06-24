@@ -2,8 +2,14 @@
 *.log
 *.jar
 *.tar.gz
+*.bin
+*.lock
 
 *.iml
 .idea
 */.idea
-*/target
+**/warpper
+**/target
+**/build
+**/.gradle
+**/gradle
